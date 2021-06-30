@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <display-name>SimpleServletProject</display-name>  // NOMBRE DEL PROYECTO
+    
+    <servlet>	//LA CLASE DEL  PROYECTO
+        <servlet-name>simpleServlet</servlet-name>
+        <servlet-class>org.codingdojo.tutorial.SimpleServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping> // DIRECCION DEL PROYECTO 
+        <servlet-name>simpleServlet</servlet-name>
+        <url-pattern>/simpleServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet> // CLASE DEL ARCHIVO XML
+        <servlet-name>xmlServlet</servlet-name> 
+        <servlet-class>or.codingdojo.tutorial.XmlServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping> // URL DEL SERVLET
+        <servlet-name>xmlServlet</servlet-name>
+        <url-pattern>/xmlServletpath</url-pattern>
+    </servlet-mapping>
+    
+    <welcome-file-list> // ARCHIVO DE BIENVENIDA O PRINCIPAL
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

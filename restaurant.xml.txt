@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8">
+<menuComidas>
+
+    <item categoria="desayuno01">
+        <nombre>Paila con huevos</nombre>
+        <descripcion>Una paila con dos huevos revueltos y 2 panes.</descripcion>
+        <precio>$2.000</precio>
+    </item>
+    <item categoria="desayuno02">
+        <nombre>Selladitas</nombre>
+        <descripcion>Dos selladitas de queso y jamon.</descripcion>
+        <precio>$1.500</precio>
+    </item>
+    <item categoria="desayuno03">
+        <nombre>Queso caliente</nombre>
+        <descripcion>Pan con queso caliente</descripcion>
+        <precio>$1.500</precio>
+    </item>	
+  
+    <item categoria="menu01">
+        <nombre>Porotos</nombre>
+        <descripcion>Porotos con riendas</descripcion>
+        <precio>$2.500</precio>
+    </item>
+    <item categoria="menu01">
+        <nombre>Pure con Pollo</nombre>
+        <descripcion>Pure de papas con pollo asado</descripcion>
+        <precio>$3.000</precio>
+    </item>
+    <item categoria="menu01">
+        <nombre>Lasagna</nombre>
+        <descripcion>Lasagna vegetariana</descripcion>
+        <precio>$3.000</precio>
+    </item>
+      
+</menuComidas>
